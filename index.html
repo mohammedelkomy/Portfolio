@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Elkomy | Data Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">ME<span class="dot">.</span></div>
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <i class="ri-sun-line" id="theme-icon"></i>
+            </button>
+            <div class="hamburger">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-name">Mohamed Elkomy</h1>
+            
+            <div class="typewriter-container">
+                <span class="static-text">I am a </span>
+                <span class="dynamic-text"></span><span class="cursor">|</span>
+            </div>
+
+            <p class="hero-desc">
+                An analytical thinker dedicated to transforming complex datasets into clear, actionable business strategies. 
+                Currently bridging the gap between historical analysis and predictive intelligence through <strong>Data Science & AI</strong>.
+            </p>
+
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+
+            <div class="hero-socials">
+                <a href="https://www.linkedin.com/in/mohamed-elkomy-me30" target="_blank" title="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                <a href="mailto:email@example.com" title="Email"><i class="ri-mail-send-line"></i></a>
+                <a href="https://wa.me/201069705670" target="_blank" title="WhatsApp"><i class="ri-whatsapp-line"></i></a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="ri-bar-chart-box-line icon"></i>
+                    <h3>Data Analysis</h3>
+                    <p>I specialize in dissecting large datasets to uncover hidden trends. My focus is on data accuracy, cleaning, and creating visualizations that tell a story.</p>
+                </div>
+                <div class="about-card">
+                    <i class="ri-lightbulb-flash-line icon"></i>
+                    <h3>Business Insights</h3>
+                    <p>Data without context is just noise. I translate technical findings into strategic recommendations that drive efficiency and revenue growth.</p>
+                </div>
+                <div class="about-card">
+                    <i class="ri-brain-line icon"></i>
+                    <h3>Future Tech (AI/DS)</h3>
+                    <p>Actively expanding my expertise into Machine Learning and Artificial Intelligence to build predictive models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Skills & Tools</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="skills-wrapper">
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Analysis & Thinking</h3>
+                    <div class="skill-items">
+                        <div class="skill-pill"><i class="ri-book-open-line"></i> Data Storytelling</div>
+                        <div class="skill-pill"><i class="ri-search-eye-line"></i> EDA</div>
+                        <div class="skill-pill"><i class="ri-puzzle-line"></i> Problem Solving</div>
+                        <div class="skill-pill"><i class="ri-lightbulb-flash-line"></i> Business Insights</div>
+                        <div class="skill-pill"><i class="ri-functions-line"></i> Statistical Thinking</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Data Visualization</h3>
+                    <div class="skill-items">
+                        <div class="skill-pill"><i class="ri-bar-chart-grouped-line"></i> Power BI</div>
+                        <div class="skill-pill"><i class="ri-line-chart-line"></i> Matplotlib</div>
+                        <div class="skill-pill"><i class="ri-bubble-chart-line"></i> Seaborn</div>
+                        <div class="skill-pill"><i class="ri-layout-masonry-line"></i> Dashboard Design</div>
+                        <div class="skill-pill"><i class="ri-palette-line"></i> Viz Best Practices</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-pill"><i class="ri-code-s-slash-line"></i> Python</div>
+                        <div class="skill-pill"><i class="ri-table-line"></i> Pandas</div>
+                        <div class="skill-pill"><i class="ri-brackets-line"></i> NumPy</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Databases & Data</h3>
+                    <div class="skill-items">
+                        <div class="skill-pill"><i class="ri-database-2-line"></i> SQL</div>
+                        <div class="skill-pill"><i class="ri-magic-line"></i> Data Cleaning</div>
+                        <div class="skill-pill"><i class="ri-git-merge-line"></i> Data Wrangling</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Professional</h3>
+                    <div class="skill-items">
+                        <div class="skill-pill"><i class="ri-brain-line"></i> Analytical Thinking</div>
+                        <div class="skill-pill"><i class="ri-chat-smile-line"></i> Communication</div>
+                        <div class="skill-pill"><i class="ri-focus-2-line"></i> Attention to Detail</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/food mart project/sales.png" alt="Retail Dashboard" class="project-thumb">
+                    </div>
+                    <div class="project-content">
+                        <h3>Retail BI & Performance Dashboard</h3>
+                        <p class="project-desc">An end-to-end Power BI dashboard that transforms 2 years of retail data into actionable insights, focusing on profitability, customer segmentation, and store operational efficiency.</p>
+                        <div class="tech-stack">
+                            <span>#PowerBI</span>
+                            <span>#SQL</span>
+                            <span>#DAX</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mohammedelkomy/Food-Mart-Analysis---PowerBI" target="_blank" class="action-btn"><i class="ri-github-fill"></i> GitHub</a>
+                            <button class="action-btn details-btn" data-id="1"><i class="ri-eye-line"></i> Details</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/Spotify project/Spotify_dashboard.png" alt="Spotify Dashboard" class="project-thumb">
+                    </div>
+                    <div class="project-content">
+                        <h3>Spotify Analysis & Skip Prediction</h3>
+                        <p class="project-desc">A full-stack data science solution analyzing 140,000+ Spotify streaming records to predict song skips using machine learning and data visualization.</p>
+                        <div class="tech-stack">
+                            <span>#Python</span>
+                            <span>#Pandas</span>
+                            <span>#ScikitLearn</span>
+                            <span>#PowerBI</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mohammedelkomy/Spotify-End-to-End-Analysis" target="_blank" class="action-btn"><i class="ri-github-fill"></i> GitHub</a>
+                            <button class="action-btn details-btn" data-id="2"><i class="ri-eye-line"></i> Details</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section alt-bg">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="contact-wrapper-minimal">
+                <div class="contact-links">
+                    <p class="contact-intro">Looking for a data analyst? Let's discuss how I can help your business grow.</p>
+                    
+                    <a href="mailto:email@example.com" class="minimal-link">
+                        <i class="ri-mail-send-line"></i> 
+                        <span>email@example.com</span>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/mohamed-elkomy-me30" target="_blank" class="minimal-link">
+                        <i class="ri-linkedin-box-line"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    
+                    <a href="https://wa.me/201069705670" target="_blank" class="minimal-link">
+                        <i class="ri-whatsapp-line"></i>
+                        <span>+20 106 970 5670</span>
+                    </a>
+                </div>
+
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-socials">
+                <a href="https://github.com/mohammedelkomy" target="_blank"><i class="ri-github-line"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-elkomy-me30" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://wa.me/201069705670" target="_blank"><i class="ri-whatsapp-line"></i></a>
+                <a href="https://www.facebook.com/mohamed.elkomy.567226?locale=ar_AR" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Download CV <i class="ri-download-line"></i></a>
+            </div>
+            <p class="copyright">
+                &copy; 2024 Mohamed Elkomy. Built with <i class="ri-code-s-slash-line"></i> and data logic.
+            </p>
+        </div>
+    </footer>
+
+    <div class="fab-container">
+        <div class="fab-pulse"></div>
+        <button id="cert-fab" class="fab" aria-label="Certifications">
+            <i class="ri-award-line"></i>
+        </button>
+        <span class="fab-tooltip">Certifications</span>
+    </div>
+
+    <div id="cert-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Professional Certifications</h2>
+            <div class="cert-timeline">
+                
+                <div class="cert-item">
+                    <div class="cert-date">June - Dec 2025</div>
+                    <h4>Data Analyst Specialist</h4>
+                    <p>DEPI (Digital Egypt Pioneers Initiative)</p>
+                    <button class="view-cert-btn" data-img="assets/certificates/Depi.jpg">
+                        <i class="ri-eye-line"></i> View Certificate
+                    </button>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-date">Sep 2025</div>
+                    <h4>Artificial Intelligence & Machine Learning</h4>
+                    <p>ITI (Information Technology Institute) - 72 Hrs</p>
+                    <button class="view-cert-btn" data-img="assets/certificates/ITI Certificate.png">
+                        <i class="ri-eye-line"></i> View Certificate
+                    </button>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-date">Sep 2025</div>
+                    <h4>Getting Started with Deep Learning</h4>
+                    <p>NVIDIA</p>
+                    <button class="view-cert-btn" data-img="assets/certificates/Getting Started with Deep Learning.png">
+                        <i class="ri-eye-line"></i> View Certificate
+                    </button>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-date">Oct 2024</div>
+                    <h4>Python For Beginners</h4>
+                    <p>Udemy - 4.5 Hrs</p>
+                    <button class="view-cert-btn" data-img="assets/certificates/python_udemy.png">
+                        <i class="ri-eye-line"></i> View Certificate
+                    </button>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-date">Feb 2026</div>
+                    <h4>Building LLM Applications With Prompt Engineering</h4>
+                    <p>NVIDIA</p>
+                    <button class="view-cert-btn" data-img="assets/certificates/Building LLM Applications With Prompt Engineering.png">
+                        <i class="ri-eye-line"></i> View Certificate
+                    </button>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-date">Feb 2026</div>
+                    <h4>AI for All From Basics to GenAI Practice</h4>
+                    <p>NVIDIA</p>
+                    <button class="view-cert-btn" data-img="assets/certificates/AI for All From Basics to GenAI Practice.png">
+                        <i class="ri-eye-line"></i> View Certificate
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content project-modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
